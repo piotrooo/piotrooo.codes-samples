@@ -1,0 +1,17 @@
+spring:
+  main:
+    web-application-type: none
+    banner-mode: off
+  ai:
+    google:
+      genai:
+        api-key: ${GEMINI_API_KEY:}
+        chat:
+          model: ${GEMINI_MODEL:gemini-3.5-flash-lite}
+    typesafe:
+      api-key: ${TYPESAFE_API_KEY:}
+      model: ${TYPESAFE_MODEL:jev-latest}
+
+logging:
+  level:
+    root: WARN
