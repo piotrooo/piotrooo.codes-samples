@@ -1,3 +1,4 @@
 dependencies {
+    developmentOnly project(':sdk-asterisk-starter')
     developmentOnly project(':sdk-postgres-starter')
 }

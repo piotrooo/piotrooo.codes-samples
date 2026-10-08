@@ -2,4 +2,5 @@ rootProject.name = 'arconia-dev-services'
 
 include 'customer-service'
 include 'order-service'
+include 'sdk-asterisk-starter'
 include 'sdk-postgres-starter'

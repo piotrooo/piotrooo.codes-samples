@@ -1,0 +1,13 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    api 'io.arconia:arconia-dev-services-core:0.30.0'
+    api 'org.testcontainers:testcontainers'
+
+}
+
+tasks.named('bootJar') {
+    enabled = false
+}
